@@ -6,7 +6,7 @@
 - 2 Fiber Optic Cable <a href="https://www.thorlabs.com/item/M137L02">M137L02</a>
 - 2 IR Fiber-coupled LED of the appropriate wavelength. e.g. <a href="https://www.thorlabs.com/fiber-coupled-leds?tabName=Overview">M850F3</a>)
 
-<b>Others suppliers</b>:
+<b>Other suppliers</b>:
 - Teledyne's Chameleon3 Camera, model: <a href="https://www.teledynevisionsolutions.com/en-150/products/chameleon3-usb3/?model=CM3-U3-13Y3M-CS&vertical=machine%20vision&segment=iis">CM3-U3-13Y3M-CS</a>
 - InfiniStix Lens, model <a href="https://www.edmundoptics.de/p/infinistix-05x-94mm-wd-video-lens/11346/">0.5X 94mm WD</a>
 - Angled Push-in Pneumatic M3 - 4mm Connector model: <a href="https://www.landefeld.de/artikel/de/winkel-steckanschluss-m-3-4mm-iqs-mini/IQSML%20M34">IQSML M34</a>
@@ -18,8 +18,8 @@
   
 <b>Homemade Parts</b>:
 - 3D printed BallHolder_100Deg.stl <a href="https://github.com/ActiveSensing/Eye-Tracking_Setup_Instructions/tree/main/Eye%20Camera%20Building%20Instructions/3D%20Printed%20and%20Manufactured%20Parts">here</a>, preferably using an PLA black filament with a Prusa Core Printer
-- 8 or 6mm polyurethane (<a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">e.g</a>) or foam balls with irregular stains (preferably with white IR-absorbant ink)
-- Manufactured Aluminium (<a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">Ball Blower</a>)
+- 8 or 6mm <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">polyurethane</a> or foam balls with irregular stains (preferably with white IR-absorbant ink)
+- Manufactured <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">Aluminium Ball Blower</a>
 
 <b>Screws</b>:
 - 1x M6 of 6 mm Capless
