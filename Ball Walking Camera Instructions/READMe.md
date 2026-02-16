@@ -17,9 +17,9 @@
 - 8mm Air Tube
   
 <b>Homemade Parts</b>:
-- 3D printed BallHolder_100Deg.stl <a href="https://github.com/ActiveSensing/Eye-Tracking_Setup_Instructions/tree/main/Eye%20Camera%20Building%20Instructions/3D%20Printed%20and%20Manufactured%20Parts">here</a>, preferably using an PLA black filament with a Prusa Core Printer
+- 3D printed <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">BallHolder_100Deg.stl</a>, preferably using an PLA black filament with a Prusa Core Printer
 - 8 or 6mm <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">polyurethane</a> or foam balls with irregular stains (preferably with white IR-absorbant ink)
-- Manufactured <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">Aluminium Ball Blower</a>
+- Manufactured <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/8mm_Ball_Blower.pdf">Aluminium Ball Blower</a>
 
 <b>Screws</b>:
 - 1x M6 of 6 mm Capless
