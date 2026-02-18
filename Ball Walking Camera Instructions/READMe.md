@@ -45,7 +45,7 @@
 8. Keep the <b>Ball</b> and the <b>Ball Holder</b> in a away (and safe) for now.
 9. Screw the <b>M4 screws (20mm)</b> on both to side of the <b>Ball Holder</b>.
 
-### --> At this point, choose your Camera Mounting option  [(Below)](#ball-camera-mounting-options-schematic) and build it within your experimental setup.</u>
+### --> At this point, choose your Camera Mounting option (Below) and build it within your experimental setup.</u>
 </br>
 
 10. Screw your <b>Camera</b> to your now built mounting option.
@@ -73,7 +73,7 @@
     - 1x Dovetail Rail <a href="https://www.thorlabs.com/dovetail-optical-rails?aID=4b89da8e524e262464d6f0284bb86f28&aC=2&tabName=Overview">RLA../M</a> of the required length
     - 2x Optical Posts <a href="https://www.thorlabs.com/optical-posts-half-inch-and-12-mm?tabName=Overview">TR../M</a> of the required length
 - 3D-Printed:
-    - 1x a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">BallHolder_100Deg.stl</a>
+    - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">BallHolder_100Deg.stl</a>
 
 <b>Rails-Mounted Option</b>:
 - Screws:
@@ -84,8 +84,8 @@
     - 1x Rail Carrier <a href="https://www.thorlabs.com/item/RC1">RC1</a>
     - 2x Dovetail Rail <a href="https://www.thorlabs.com/dovetail-optical-rails?aID=4b89da8e524e262464d6f0284bb86f28&aC=2&tabName=Overview">RLA../M</a> of the required length
 - 3D-Printed:
-    - 1x a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/BallCameraHolder_VerticalRC2_Sided.stl">BallCameraHolder_VerticalRC2_Sided.stl</a>
-    - 1x a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/BallCamera_VerticalRail_RC2.stl">BallCamera_VerticalRail_RC2.stl</a>
+    - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/BallCameraHolder_VerticalRC2_Sided.stl">BallCameraHolder_VerticalRC2_Sided.stl</a>
+    - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/BallCamera_VerticalRail_RC2.stl">BallCamera_VerticalRail_RC2.stl</a>
  
 <b>Macromanipulator-Mounted Option</b>:
 - Screws:
@@ -94,4 +94,4 @@
 - Other Suppliers:
     - 2x Micromanipulator <a href="https://www.amazon.de/s?k=hF3-A90">hF3-A90</a>, because it's cheap
 - 3D-Printed:
-    - 1x a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Camera_Micromanipulator_Adaptor_Sided.stl">Camera_Micromanipulator_Adaptor_Sided.stl</a>
+    - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Camera_Micromanipulator_Adaptor_Sided.stl">Camera_Micromanipulator_Adaptor_Sided.stl</a>
