@@ -5,29 +5,32 @@
 ## Required Parts
 
 <b>Thorlabs</b>:
-- 1 Aluminium Mirror <a href="https://www.thorlabs.com/item/ME05-G01">ME05-G01</a>
-- 1 CS to C Mount Adaptor <a href="https://www.thorlabs.com/item/CML05">CML05</a>
-- 2 Fiber Optic Cable <a href="https://www.thorlabs.com/item/M137L02">M137L02</a>
-- 2 IR Fiber-coupled LED of the appropriate wavelength. e.g. <a href="https://www.thorlabs.com/fiber-coupled-leds?tabName=Overview">M850F3</a>)
+- 1x Dovetail Rail <a href="https://www.thorlabs.com/dovetail-optical-rails?aID=4b89da8e524e262464d6f0284bb86f28&aC=2&tabName=Overview">RLA../M</a> of the required length (I suggest 30cm)
+- 1x Rail Carrier <a href="https://www.thorlabs.com/item/RC2">RC2</a>
+- 2x Adjustable Flip Platform <a href="https://www.thorlabs.com/item/FP90_M">FP90/M</a>
+- 1x Photodiod <a href="https://www.thorlabs.com/item/FDS100">FDS100</a>
+- 1x Light guid <a href="https://www.thorlabs.com/fiber-coupled-leds?tabName=Overview">M87L01</a>)
 
 <b>Other suppliers</b>:
-- Teledyne's Chameleon3 Camera, model: <a href="https://www.teledynevisionsolutions.com/en-150/products/chameleon3-usb3/?model=CM3-U3-13Y3M-CS&vertical=machine%20vision&segment=iis">CM3-U3-13Y3M-CS</a>
-- InfiniStix Lens, model <a href="https://www.edmundoptics.de/p/infinistix-05x-94mm-wd-video-lens/11346/">0.5X 94mm WD</a>
-- Angled Push-in Pneumatic M3 - 4mm Connector model: <a href="https://www.landefeld.de/artikel/de/winkel-steckanschluss-m-3-4mm-iqs-mini/IQSML%20M34">IQSML M34</a>
-- Push-in Pneumatic R 1/4" - 4mm Connector model: <a href="https://www.landefeld.de/artikel/de/gerader-steckanschluss-r-14-4mm-iqs-standard/IQSG%20144">IQSG 144</a>
-- Push-in Pneumatic R 1/4" - 6mm Connector model: <a href="https://www.landefeld.de/artikel/de/gerader-steckanschluss-r-14-6mm-iqs-standard/IQSG%20146">IQSG 146</a>
-- AirFlow Meter 0.1 -> 1.5L/min model: <a href="https://de.rs-online.com/web/p/durchflusssensoren/2576415?searchId=ebb5b145-609c-4a1f-b4be-6766787836c0">257-6415</a>
-- 6mm Air Tube
-- 8mm Air Tube
+- 1x Texas Instruments's Projector, model: <a href="https://www.ti.com/tool/DLP3010EVM-LC">DLP3010EVM-LC</a>
+- 1x TRU Components' 20mm Squared Posts InfiniStix Lens, model <a href="https://www.conrad.com/en/p/tru-components-2020a-tc-10493168-brace-aluminium-anodised-1000-mm-x-20-mm-x-20-mm-1-pc-s-2623292.html">TC-10493168</a>
+- 1x Capacitor 0.1 μF
+- 1x Resistor 1kΩ Push-in Pneumatic R 1/4" - 4mm Connector model: <a href="https://www.landefeld.de/artikel/de/gerader-steckanschluss-r-14-4mm-iqs-standard/IQSG%20144">IQSG 144</a>
 
-<b>Homemade Parts</b>:
-- 3D printed <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">BallHolder_100Deg.stl</a>, preferably using an PLA black filament with a Prusa Core Printer
+<b>3D printed Parts</b> (preferably using an PLA black filament with a Prusa Core Printer):
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarier_blocker.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarrier_FlipingPlatform_Adaptor.stl</a>
 - 8 or 6mm <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">polyurethane</a> or foam balls with irregular stains <a href="https://github.com/rjdmoore/fictrac/blob/master/doc/requirements.md#track-ball">following Fictrac's instructions</a> (preferably with white IR-absorbant ink)
 - Manufactured <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/8mm%20Ball%20Blower.pdf">Aluminium Ball Blower</a>
 
 <b>Screws</b>:
 - 1x M6 of 6 mm Capless
 - 2x M4 of 20mm
+
+<b>For the Cone</b>:
+- 1x A4 sheet of paper (black or white, depending on requirements)
+- 1x Super glue (Preferably gel-like to not soak in the paper).
+- 1x Waterproof clear spray (The Deichmann's <a href="https://www.deichmann.com/en-gb/p/deichmann-shoe-care-care-spray-shoe-care-transparent-52373/275152">Shoe Care Spary</a> is actually miraculous)
 
 ## Ball Camera Building Instructions
 
@@ -95,3 +98,4 @@
     - 2x Micromanipulator <a href="https://www.amazon.de/s?k=hF3-A90">hF3-A90</a>, because it's cheap
 - 3D-Printed:
     - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Camera_Micromanipulator_Adaptor_Sided.stl">Camera_Micromanipulator_Adaptor_Sided.stl</a>
+
