@@ -1,6 +1,6 @@
 ## Ball Camera Schematic
 
-<p align="center"><img src="ReadMe_Ref/BallWalkingCameraDesign.svg" width="630" height="891"></p>
+<p align="center"><img src="ReadMe_Ref/Half-Cone_Projector_Design" width="630" height="891"></p>
 
 ## Required Parts
 
@@ -20,8 +20,16 @@
 <b>3D printed Parts</b> (preferably using an PLA black filament with a Prusa Core Printer):
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarier_blocker.stl</a>
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarrier_FlipingPlatform_Adaptor.stl</a>
-- 8 or 6mm <a href="https://spherotech.net/de/produkte/uebersicht/kugeln/">polyurethane</a> or foam balls with irregular stains <a href="https://github.com/rjdmoore/fictrac/blob/master/doc/requirements.md#track-ball">following Fictrac's instructions</a> (preferably with white IR-absorbant ink)
-- Manufactured <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/8mm%20Ball%20Blower.pdf">Aluminium Ball Blower</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_Extensor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_SidedAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_FlatAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_TipAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">DLP3010_Base.stl.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">DLPS3010_Base_Holder</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">Cone_HandeldSupport.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">Projector_PhotoDiod_Holder</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">PhotoDiod_LightGuideAdaptor</a>
+
 
 <b>Screws</b>:
 - 1x M6 of 6 mm Capless
@@ -31,6 +39,7 @@
 - 1x A4 sheet of paper (black or white, depending on requirements)
 - 1x Super glue (Preferably gel-like to not soak in the paper).
 - 1x Waterproof clear spray (The Deichmann's <a href="https://www.deichmann.com/en-gb/p/deichmann-shoe-care-care-spray-shoe-care-transparent-52373/275152">Shoe Care Spary</a> is actually miraculous)
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">ConeHolder</a>
 
 ## Ball Camera Building Instructions
 
@@ -98,4 +107,5 @@
     - 2x Micromanipulator <a href="https://www.amazon.de/s?k=hF3-A90">hF3-A90</a>, because it's cheap
 - 3D-Printed:
     - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Camera_Micromanipulator_Adaptor_Sided.stl">Camera_Micromanipulator_Adaptor_Sided.stl</a>
+
 
