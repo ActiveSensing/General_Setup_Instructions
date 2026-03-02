@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 595.28 841.89">
+  <!-- Generator: Adobe Illustrator 29.8.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 160)  -->
+  <defs>
+    <style>
+      .st0 {
+        stroke: #a09f9f;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10 {
+        stroke-miterlimit: 10;
+      }
+
+      .st0, .st9 {
+        fill: #fff;
+      }
+
+      .st11 {
+        fill: #d8d8d8;
+      }
+
+      .st12 {
+        fill: #7f7f7f;
+      }
+
+      .st1 {
+        stroke: #000;
+      }
+
+      .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st10 {
+        fill: none;
+      }
+
+      .st2 {
+        stroke: #e6e7e8;
+      }
+
+      .st2, .st9 {
+        stroke-width: .25px;
+      }
+
+      .st13 {
+        fill: #353636;
+      }
+
+      .st14 {
+        fill: #b76d3a;
+      }
+
+      .st15 {
+        fill: #2b2b2b;
+      }
+
+      .st16, .st17 {
+        fill: #231f20;
+      }
+
+      .st18 {
+        fill: #d06027;
+      }
+
+      .st19 {
+        fill: #515251;
+      }
+
+      .st20 {
+        fill: #e0e0e0;
+      }
+
+      .st21 {
+        font-size: 10.47px;
+      }
+
+      .st21, .st22, .st23, .st24 {
+        fill: #506fb6;
+      }
+
+      .st21, .st25, .st23, .st17, .st26, .st27, .st24 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .st28, .st25, .st26, .st27 {
+        fill: #891729;
+      }
+
+      .st29 {
+        fill: #a09f9f;
+      }
+
+      .st30 {
+        fill: #424344;
+      }
+
+      .st3 {
+        stroke: #605c27;
+      }
+
+      .st3, .st6, .st10 {
+        stroke-width: 5px;
+      }
+
+      .st31 {
+        fill: #606161;
+      }
+
+      .st4 {
+        stroke: #3a3939;
+      }
+
+      .st5 {
+        stroke: #d51f26;
+      }
+
+      .st32 {
+        fill: #e6e7e8;
+      }
+
+      .st6 {
+        stroke: #510f23;
+      }
+
+      .st25, .st23 {
+        font-size: 18px;
+      }
+
+      .st33 {
+        fill: #999;
+      }
+
+      .st34 {
+        fill: #fbe647;
+      }
+
+      .st35 {
+        fill: #444445;
+      }
+
+      .st17, .st27, .st24 {
+        font-size: 12px;
+      }
+
+      .st7 {
+        stroke: #231f20;
+      }
+
+      .st26 {
+        font-size: 10px;
+      }
+
+      .st8 {
+        fill: #e5e5e5;
+        stroke: #515251;
+      }
+
+      .st36 {
+        fill: #002e0b;
+      }
+
+      .st9 {
+        stroke: #5c5c5c;
+      }
+
+      .st37 {
+        fill: #757678;
+      }
+
+      .st10 {
+        stroke: #1d1e56;
+      }
+
+      .st38 {
+        fill: #b59f31;
+      }
+    </style>
+  </defs>
+  <rect class="st37" x="286.13" y="759.66" width="272.48" height="13.66"/>
+  <rect class="st35" x="397.19" y="747.46" width="67.16" height="18.54"/>
+  <rect class="st33" x="391.77" y="738.12" width="76.84" height="9.27"/>
+  <g>
+    <rect class="st8" x="416.27" y="554.42" width="25.33" height="78.76"/>
+    <g>
+      <line class="st29" x1="424.69" y1="554.93" x2="424.69" y2="628.49"/>
+      <line class="st29" x1="433.24" y1="554.82" x2="433.24" y2="628.38"/>
+    </g>
+  </g>
+  <g id="SquaredPost_x5F_Extensor_x5F_Back">
+    <g>
+      <rect class="st12" x="441.93" y="479.64" width="7.31" height="117.37" transform="translate(891.18 1076.64) rotate(180)"/>
+      <rect class="st12" x="436.52" y="521.98" width="7.85" height="32.15" transform="translate(880.89 1076.11) rotate(180)"/>
+    </g>
+    <rect class="st0" x="449.78" y="586.96" width="5.63" height="8.84"/>
+    <rect class="st0" x="449.24" y="481.38" width="5.63" height="8.84"/>
+  </g>
+  <g id="SquaredPost_x5F_Extensor_x5F_Front">
+    <g>
+      <rect class="st12" x="408.65" y="479.64" width="7.23" height="117.37"/>
+      <rect class="st12" x="413.47" y="521.98" width="7.77" height="32.15"/>
+    </g>
+    <rect class="st0" x="402.62" y="586.96" width="5.63" height="8.84"/>
+    <rect class="st0" x="402.89" y="481.38" width="5.63" height="8.84"/>
+  </g>
+  <g>
+    <g>
+      <rect class="st0" x="398.2" y="635.59" width="5.63" height="8.84"/>
+      <rect class="st0" x="455.68" y="635.46" width="5.63" height="8.84"/>
+      <g>
+        <rect class="st33" x="413.29" y="647.38" width="32.07" height="71.23"/>
+        <polygon class="st33" points="442.61 634.17 416.33 634.17 403.18 672.99 416.33 711.82 442.61 711.82 455.76 672.99 442.61 634.17"/>
+        <rect class="st33" x="403.51" y="628.07" width="52" height="46.16"/>
+      </g>
+      <ellipse class="st0" cx="430.62" cy="639.74" rx="4.56" ry="4.15"/>
+    </g>
+    <rect class="st12" x="427.02" y="706.08" width="6.85" height="2.82"/>
+  </g>
+  <g id="FlipPlatform_x5F_Base">
+    <rect class="st19" x="409.32" y="711.78" width="42.22" height="13.66"/>
+    <rect class="st19" x="409.32" y="726.31" width="42.22" height="11.95"/>
+  </g>
+  <g>
+    <rect class="st8" x="416.41" y="381.78" width="25.33" height="140.25"/>
+    <line class="st29" x1="425.08" y1="390.98" x2="425.08" y2="521.82"/>
+    <line class="st29" x1="433.62" y1="390.79" x2="433.62" y2="521.62"/>
+  </g>
+  <g>
+    <rect class="st19" x="359.15" y="388.48" width="36.48" height="13.66" transform="translate(-142.97 562.39) rotate(-64.13)"/>
+    <path class="st19" d="M402.32,386.02c.38,7.29.1,31.97.1,31.97h-13.31s.44-26.21.44-32.21,12.4-6.81,12.77.24Z"/>
+    <circle class="st32" cx="396.47" cy="386.11" r="1.78"/>
+    <line class="st2" x1="386.64" y1="382.05" x2="389.6" y2="383.64"/>
+    <line class="st2" x1="391.38" y1="383.75" x2="394.34" y2="385.35"/>
+    <line class="st2" x1="391.11" y1="386.04" x2="394.47" y2="386.1"/>
+    <line class="st2" x1="392.97" y1="382.07" x2="395.19" y2="384.6"/>
+    <line class="st2" x1="395.97" y1="381.59" x2="396.08" y2="384.18"/>
+    <line class="st2" x1="397.57" y1="384.4" x2="399.16" y2="382.2"/>
+    <line class="st2" x1="398.36" y1="385.3" x2="401.29" y2="383.72"/>
+    <line class="st2" x1="398.64" y1="386.26" x2="401.59" y2="386.22"/>
+  </g>
+  <polygon class="st15" points="108.74 606.39 75.93 589.43 133.34 478.37 243 535.06 108.74 606.39"/>
+  <g>
+    <rect class="st8" x="342.84" y="151.96" width="25.33" height="437.75" transform="translate(200.98 -119.09) rotate(26.29)"/>
+    <line class="st29" x1="436.13" y1="198.58" x2="255.28" y2="564.74"/>
+    <line class="st29" x1="444.05" y1="201.82" x2="263.2" y2="567.98"/>
+  </g>
+  <g>
+    <rect class="st31" x="91.49" y="580.45" width="205.75" height="6.75" transform="translate(288.17 -24.31) rotate(27.18)"/>
+    <g>
+      <rect class="st12" x="99.14" y="556.83" width="113.2" height="2.97" transform="translate(273.36 -9.25) rotate(27.29)"/>
+      <rect class="st12" x="179.86" y="572.64" width="3.45" height="7.9" transform="translate(312.62 -13.54) rotate(30)"/>
+    </g>
+    <path class="st4" d="M186.12,583.37l3.05-5.9"/>
+    <path class="st4" d="M181.84,581.07l3.05-5.9"/>
+    <path class="st4" d="M177.71,578.95l3.05-5.9"/>
+  </g>
+  <g>
+    <g>
+      <g>
+        <rect class="st12" x="237.97" y="507.26" width="11.02" height="97.99" transform="translate(216.85 1162.89) rotate(-153.85)"/>
+        <rect class="st0" x="250.13" y="512.54" width="5.63" height="8.84" transform="translate(266.34 1092.33) rotate(-155.26)"/>
+      </g>
+      <rect class="st12" x="216.29" y="596.69" width="37.96" height="12.63" transform="translate(305.16 -40.49) rotate(27.51)"/>
+    </g>
+    <rect class="st0" x="241.69" y="595.03" width="3.48" height="6.42" transform="translate(-400.51 548.42) rotate(-63.43)"/>
+    <rect class="st0" x="235.82" y="607.69" width="3.48" height="10.63" transform="translate(-416.97 551.34) rotate(-63.43)"/>
+    <rect class="st0" x="237.93" y="611.03" width="3.48" height="6.12" transform="translate(-416.77 553.83) rotate(-63.43)"/>
+  </g>
+  <g id="ProjectorBase">
+    <rect class="st13" x="199.99" y="114.32" width="196.65" height="11.82" transform="translate(59.08 335.2) rotate(-63.89)"/>
+  </g>
+  <g>
+    <g id="LightGuide">
+      <rect class="st16" x="243.68" y="231.68" width="3.04" height="12.72" transform="translate(194.43 575.98) rotate(-125.61)"/>
+      <rect class="st20" x="253.16" y="228.41" width="1.38" height="8.02" transform="translate(212.69 574.13) rotate(-125.61)"/>
+    </g>
+    <path class="st1" d="M566.57,208.94s11.11-107.37-26.61-128.03-62.87-5.39-62.87-5.39c0,0-226.63,147.52-238.84,155.9-7.56,5.2-5.01,4.07-6.79,8.46-3.67,9.06,9.19,1.67,9.19,1.67"/>
+  </g>
+  <g>
+    <g id="Camera">
+      <rect class="st36" x="236.23" y="114.66" width="166.23" height="36.59" transform="translate(59.42 361.22) rotate(-63.89)"/>
+      <rect class="st36" x="264.94" y="200.48" width="22.24" height="20.67" transform="translate(-34.73 365.95) rotate(-63.89)"/>
+      <rect class="st36" x="261.74" y="213.81" width="14.22" height="23.46" transform="translate(-51.99 367.71) rotate(-63.89)"/>
+    </g>
+    <path class="st3" d="M292.65,211.87s-4.96,26.17,5.51,28.93S405.32,52.09,431.21,51.26s47.66-1.05,60.77-.96"/>
+    <path class="st6" d="M312.51,143.63s51.8-19.51,56.77-33,28.74-71.67,51.44-75.93,95.64-2.1,95.64-2.1"/>
+    <path class="st10" d="M352.6,56.71s12.42-30.87,14.19-33,3.9-9.22,15.61-9.22,161.43-1.06,161.43-1.06"/>
+  </g>
+  <g id="ProjectorSupport">
+    <rect class="st12" x="299.19" y="189.14" width="231.44" height="16.94" transform="translate(54.89 483.23) rotate(-63.89)"/>
+    <rect class="st12" x="216.93" y="227.02" width="167.63" height="4.21" transform="translate(131.5 -108.96) rotate(26.11)"/>
+    <rect class="st12" x="219.09" y="221.16" width="171.19" height="4.21" transform="translate(129.33 -111.3) rotate(26.11)"/>
+    <rect class="st12" x="303.26" y="61.88" width="163.09" height="4.21" transform="translate(67.41 -162.8) rotate(26.11)"/>
+    <rect class="st12" x="305.61" y="55.24" width="163.09" height="4.21" transform="translate(64.73 -164.51) rotate(26.11)"/>
+    <rect class="st12" x="171.47" y="103.81" width="196.65" height="6.06" transform="translate(55.14 302.1) rotate(-63.89)"/>
+    <polygon class="st12" points="245.31 192.6 269.72 114.66 320.1 33.73 308.3 27.32 230.8 187.06 245.31 192.6"/>
+    <rect class="st0" x="352.78" y="286.88" width="8.76" height="6.84" transform="translate(-60.68 483.28) rotate(-63.89)"/>
+    <rect class="st0" x="360.81" y="270.18" width="8.76" height="6.84" transform="translate(-41.2 481.14) rotate(-63.89)"/>
+  </g>
+  <rect class="st12" x="560.69" y="209.52" width="16" height="29.75"/>
+  <g>
+    <rect class="st34" x="559.44" y="239.52" width="19.25" height="2"/>
+    <rect class="st34" x="561.69" y="241.52" width="1.25" height="52.75"/>
+    <rect class="st38" x="564.94" y="241.77" width="1.5" height="53.25" transform="translate(20.71 -39.89) rotate(4.11)"/>
+    <rect class="st34" x="574.82" y="241.14" width="1.25" height="52.75"/>
+  </g>
+  <g>
+    <rect class="st11" x="534.13" y="282.44" width="30.57" height=".67" transform="translate(177.52 -210.69) rotate(25.76)"/>
+    <rect class="st11" x="538.75" y="279.6" width="38.17" height="1" transform="translate(177.19 -214.62) rotate(25.76)"/>
+    <ellipse class="st18" cx="534.75" cy="271.68" rx="3.92" ry="6.75" transform="translate(89.98 674.11) rotate(-69.07)"/>
+  </g>
+  <g>
+    <rect class="st11" x="565.89" y="302.4" width="19.74" height=".64" transform="translate(878.48 -273.04) rotate(90)"/>
+    <rect class="st14" x="574.89" y="298.74" width="1.9" height="5.42"/>
+  </g>
+  <g>
+    <path class="st7" d="M563.75,294.47c-2.83,17.35-1,25.54,2.11,28.08.87.71,2.72,1.89,3.96,4.36,1.44,2.86.56,4.45.92,10.44.25,4.06.45,6.95,1.98,10.17,1.52,3.21,2.44,2.72,3.7,5.55,1.86,4.19.48,6.67,1.19,11.89.32,2.36,1.13,5.66,3.3,9.51"/>
+    <path class="st5" d="M575.5,311.85c0,12.55-7.3,5.86-8.61,9.65-.37,1.06-1.32,3.04-1.09,5.79.27,3.19,1.86,4.08,4.69,9.37,1.92,3.58,3.26,6.15,3.65,9.7.39,3.53-.65,3.59-.24,6.67.61,4.54,3.1,5.93,5.23,10.75.96,2.18,2.02,5.41,2.18,9.83"/>
+  </g>
+  <g>
+    <g>
+      <rect class="st12" x="361.9" y="340.31" width="11.02" height="97.99" transform="translate(209.03 -122.03) rotate(26.13)"/>
+      <rect class="st0" x="355.24" y="423.14" width="5.63" height="8.84" transform="translate(238.33 -117.12) rotate(27.55)"/>
+      <rect class="st0" x="389.89" y="353.35" width="5.63" height="8.84" transform="translate(209.98 -141.06) rotate(27.55)"/>
+    </g>
+    <path class="st7" d="M358.92,406.25c2.46,1.18,2.6,1.4,5,2.56"/>
+    <path class="st7" d="M375.43,373.88c2.46,1.18,2.6,1.4,5,2.56"/>
+    <path class="st7" d="M359.05,406.47c8.04-15.89,8.62-17.2,16.48-32.73"/>
+    <rect class="st0" x="363.53" y="384.69" width="3.52" height="6.01" transform="translate(220.2 -124.84) rotate(27.49)"/>
+  </g>
+  <g id="PhotodioddHolder">
+    <rect class="st12" x="261.36" y="206.76" width="5.24" height="39.92" transform="translate(-55.77 364.01) rotate(-63.89)"/>
+    <rect class="st30" x="281.61" y="234.46" width="3.6" height="3.19" transform="translate(-53.27 386.69) rotate(-63.89)"/>
+    <rect class="st12" x="223.75" y="232.6" width="31.7" height="2.31" transform="translate(-75.73 346.05) rotate(-63.89)"/>
+    <rect class="st12" x="227.67" y="234.43" width="31.7" height="2.31" transform="translate(-75.19 350.6) rotate(-63.89)"/>
+    <rect class="st12" x="231.7" y="236.19" width="31.7" height="2.31" transform="translate(-74.51 355.21) rotate(-63.89)"/>
+    <rect class="st12" x="235.77" y="242.92" width="2.95" height="11.06" transform="translate(-90.25 352.17) rotate(-63.89)"/>
+  </g>
+  <rect class="st12" x="342.05" y="66.82" width="105.82" height="4.21" transform="translate(70.62 -166.76) rotate(26.11)"/>
+  <rect class="st12" x="347.69" y="64.55" width="116.97" height="4.21" transform="translate(70.77 -171.93) rotate(26.11)"/>
+  <ellipse class="st0" cx="257.75" cy="203.79" rx="3.18" ry="3.55" transform="translate(-38.67 345.58) rotate(-63.89)"/>
+  <ellipse class="st0" cx="339.45" cy="37.41" rx="3.85" ry="3.66" transform="translate(156.48 325.77) rotate(-63.89)"/>
+  <path class="st9" d="M205.42,594.77c-20.19,9.62-40.38,19.25-60.56,28.87"/>
+  <path class="st9" d="M104.48,531.64c-3.16-2.84-6.33-5.68-9.49-8.52"/>
+  <path class="st9" d="M118.41,503.52c-12.59-7.51-25.19-15.02-37.78-22.52"/>
+  <path class="st9" d="M198.66,445.7c16.84,28.06,33.68,56.13,50.51,84.19"/>
+  <path class="st9" d="M414.76,612.37l-87.7-66.03"/>
+  <path class="st9" d="M413.99,470.77l-81.51,61.39"/>
+  <path class="st9" d="M322.68,473.09c-.26,17.97-.52,35.94-.77,53.91"/>
+  <path class="st9" d="M500.7,759.32c10.4-6.02,12.86-7.7,23.27-13.72"/>
+  <path class="st9" d="M465.58,754.49l33.27-18.05"/>
+  <path class="st9" d="M356.61,728.4c10.95,4.91,21.89,9.81,32.84,14.72"/>
+  <path class="st9" d="M453.71,715.02l23.21-19.6"/>
+  <path class="st9" d="M376.24,680.55c10.85,4.28,21.71,8.55,32.56,12.83"/>
+  <path class="st9" d="M452.42,546.86c9.54-4.81,19.09-9.63,28.63-14.44"/>
+  <path class="st9" d="M444.85,388.86c7.42,3.51,14.83,7.02,22.25,10.53"/>
+  <path class="st9" d="M391.59,379.45c13.28-6.14,26.56-12.29,39.84-18.43"/>
+  <path class="st9" d="M392.58,344.64c8.68-5.5,17.37-11,26.05-16.51"/>
+  <path class="st9" d="M356.73,300.54c-17.28,6.36-34.56,12.72-51.84,19.09"/>
+  <path class="st9" d="M268.95,163.52c-35.85,7.82-73.94,15.96-109.8,23.78"/>
+  <path class="st9" d="M242.98,219.55c-19.26,3.87-38.52,7.74-57.78,11.61"/>
+  <path class="st20" d="M248.92,276.03"/>
+  <path class="st20" d="M252.01,269.33c1.29-11.78,2.58-23.56,3.87-35.34"/>
+  <line class="st9" x1="163.5" y1="88.43" x2="321.71" y2="102.94"/>
+  <line class="st9" x1="559.95" y1="212.76" x2="539" y2="173.56"/>
+  <line class="st9" x1="557.25" y1="241.01" x2="535.62" y2="217.9"/>
+  <line class="st9" x1="522.88" y1="243.97" x2="534.44" y2="265.6"/>
+  <line class="st9" x1="572.96" y1="305.01" x2="518.44" y2="283.68"/>
+  <text class="st17" transform="translate(65.29 82.09)"><tspan x="0" y="0">Projector DLP3010EVM-LC </tspan></text>
+  <text class="st24" transform="translate(496.57 732.49)"><tspan x="0" y="0">Rail Carrier RC2</tspan></text>
+  <text class="st21" transform="translate(530.25 745.87) scale(1.1 1)"><tspan x="0" y="0">Dovetail Rail</tspan></text>
+  <text class="st24" transform="translate(478.9 691.75)"><tspan x="0" y="0">Flip Platform F90/M</tspan></text>
+  <text class="st24" transform="translate(436.99 364.28)"><tspan x="0" y="0">Flip Platform F90/M</tspan></text>
+  <text class="st24" transform="translate(459.85 212.28)"><tspan x="0" y="0">Photodiod FDS100</tspan></text>
+  <path class="st9" d="M229.85,238.47c-19.26,3.87-38.52,7.74-57.78,11.61"/>
+  <text class="st24" transform="translate(67.32 252.12)"><tspan x="0" y="0">Light Guide M87L01</tspan></text>
+  <rect class="st22" x="29.4" y="747.47" width="26.68" height="12.03"/>
+  <text class="st23" transform="translate(68.81 757.61)"><tspan x="0" y="0">Thorlabs</tspan></text>
+  <rect class="st28" x="30.97" y="771.01" width="26.68" height="10.46"/>
+  <text class="st25" transform="translate(70.2 780.15)"><tspan x="0" y="0">3D-Printed</tspan></text>
+  <text class="st27" transform="translate(196.94 722.45)"><tspan x="0" y="0">RailCarrier_FlipingPlatform_Adaptor.stl</tspan></text>
+  <g>
+    <rect class="st33" x="294.98" y="750.54" width="53.59" height="25.35"/>
+    <rect class="st0" x="321.05" y="743.87" width="5.63" height="8.84" transform="translate(1072.16 424.43) rotate(90)"/>
+  </g>
+  <path class="st9" d="M278.3,745.08c5.47,3.2,10.95,6.4,16.42,9.6"/>
+  <text class="st27" transform="translate(185.57 743.16)"><tspan x="0" y="0">RailCarier_blocker.stl</tspan></text>
+  <text class="st27" transform="translate(146 676.78)"><tspan x="0" y="0">20mmSquaredPost_FlipPlatform_BaseAdaptor.stl</tspan></text>
+  <text class="st26" transform="translate(453.28 529.18)"><tspan x="0" y="0">20mmSquaredPost_Extensor.stl</tspan></text>
+  <text class="st26" transform="translate(449.88 411.22)"><tspan x="0" y="0">20mmSquaredPost_</tspan><tspan x="0" y="12">FlipPlatform_SidedAdaptor.stl</tspan></text>
+  <text class="st26" transform="translate(422.94 322.87)"><tspan x="0" y="0">20mmSquaredPost_</tspan><tspan x="0" y="12">FlipPlatform_FlatAdaptor.stl</tspan></text>
+  <g>
+    <g>
+      <g>
+        <path class="st12" d="M402.57,382h13.13v81.93h-13.13v-81.93Z"/>
+        <path class="st7" d="M409.98,392.56c3.15-.05,3.41.09,6.49.05"/>
+        <path class="st7" d="M410.54,393.06c.1,12.02-.03,12.99.07,24.74"/>
+        <path class="st7" d="M402.79,417.75c3.66-.05,3.96.09,7.54.05"/>
+        <path class="st12" d="M414.81,381.99h26.81v10.22h-26.81v-10.22Z"/>
+        <ellipse class="st0" cx="429.35" cy="387.31" rx="4.56" ry="4.15"/>
+      </g>
+      <rect class="st0" x="411.83" y="402.4" width="3.52" height="6.01"/>
+    </g>
+    <rect class="st0" x="396.72" y="451.33" width="5.63" height="8.84"/>
+  </g>
+  <text class="st27" transform="translate(68 191)"><tspan x="0" y="0">DLP3010_Base.stl</tspan></text>
+  <text class="st27" transform="translate(189.67 333.33)"><tspan x="0" y="0">DLPS3010_Base_Holder.stl</tspan></text>
+  <text class="st27" transform="translate(20.33 233.33)"><tspan x="0" y="0">Projector_PhotoDiod_Holder.stl</tspan></text>
+  <text class="st27" transform="translate(453.67 156.33)"><tspan x="0" y="0">PhotoDiod_</tspan><tspan x="0" y="14.4">LightGuideAdaptor.stl</tspan></text>
+  <text class="st17" transform="translate(548.38 17.1)"><tspan x="0" y="0">HDMI</tspan></text>
+  <text class="st17" transform="translate(520.86 36.14)"><tspan x="0" y="0">Power Source</tspan></text>
+  <text class="st17" transform="translate(498.11 54.34)"><tspan x="0" y="0">USB-Mini USB</tspan></text>
+  <text class="st17" transform="translate(22.08 481.29)"><tspan x="0" y="0">Paper Cone</tspan></text>
+  <text class="st17" transform="translate(295.46 543.47)"><tspan x="0" y="0">20mm Squared Post</tspan></text>
+  <text class="st17" transform="translate(455 238.52)"><tspan x="0" y="0">0.1 μF Capacitor</tspan></text>
+  <text class="st17" transform="translate(458.99 280.01)"><tspan x="0" y="0">1kΩ Resistor</tspan></text>
+  <text class="st27" transform="translate(4.67 505.33)"><tspan x="0" y="0">Cone_</tspan><tspan x="0" y="14.4">HandeldSupport.stl</tspan></text>
+  <text class="st27" transform="translate(77.67 636)"><tspan x="0" y="0">ConeHolder.stl</tspan></text>
+  <text class="st27" transform="translate(135 426)"><tspan x="0" y="0">20mmSquaredPost_</tspan><tspan x="0" y="14.4">FlipPlatform_TipAdaptor.stl</tspan></text>
+  <rect x="563.72" y="196.98" width="7.09" height="12.25"/>
+</svg>
