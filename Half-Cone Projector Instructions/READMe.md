@@ -1,6 +1,6 @@
 ## Ball Camera Schematic
 
-<p align="center"><img src="ReadMe_Ref/Half-Cone_Projector_Design" width="630" height="891"></p>
+<p align="center"><img src="ReadMe_Ref/Half-Cone_Projector_Design.svg" width="630" height="891"></p>
 
 ## Required Parts
 
@@ -8,8 +8,10 @@
 - 1x Dovetail Rail <a href="https://www.thorlabs.com/dovetail-optical-rails?aID=4b89da8e524e262464d6f0284bb86f28&aC=2&tabName=Overview">RLA../M</a> of the required length (I suggest 30cm)
 - 1x Rail Carrier <a href="https://www.thorlabs.com/item/RC2">RC2</a>
 - 2x Adjustable Flip Platform <a href="https://www.thorlabs.com/item/FP90_M">FP90/M</a>
+- 14x M6 Drop-In T-Nut <a href="https://www.thorlabs.com/item/https://www.thorlabs.com/item/XE25T1_M">XE25T1/M</a>
 - 1x Photodiod <a href="https://www.thorlabs.com/item/FDS100">FDS100</a>
-- 1x Light guid <a href="https://www.thorlabs.com/fiber-coupled-leds?tabName=Overview">M87L01</a>)
+- 1x Light guide <a href="https://www.thorlabs.com/fiber-coupled-leds?tabName=Overview">M87L01</a>
+
 
 <b>Other suppliers</b>:
 - 1x Texas Instruments's Projector, model: <a href="https://www.ti.com/tool/DLP3010EVM-LC">DLP3010EVM-LC</a>
@@ -18,28 +20,29 @@
 - 1x Resistor 1kΩ Push-in Pneumatic R 1/4" - 4mm Connector model: <a href="https://www.landefeld.de/artikel/de/gerader-steckanschluss-r-14-4mm-iqs-standard/IQSG%20144">IQSG 144</a>
 
 <b>3D printed Parts</b> (preferably using an PLA black filament with a Prusa Core Printer):
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarier_blocker.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">RailCarrier_FlipingPlatform_Adaptor.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_Extensor.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_SidedAdaptor.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_FlatAdaptor.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">20mmSquaredPost_FlipPlatform_TipAdaptor.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">DLP3010_Base.stl.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">DLPS3010_Base_Holder</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">Cone_HandeldSupport.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">Projector_PhotoDiod_Holder</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">PhotoDiod_LightGuideAdaptor</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Rail%20Carrier%20Accessories/RailCarier_blocker.stl">RailCarier_blocker.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Rail%20Carrier%20Accessories/RailCarrier_FlipingPlatform_Adaptor.stl">RailCarrier_FlipingPlatform_Adaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/TC%2020mm%20SquaredPost%20Accessories/20mmSquaredPost_Extensor.stl">20mmSquaredPost_Extensor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/TC%2020mm%20SquaredPost%20Accessories/20mmSquaredPost_FlipPlatform_SidedAdaptor.stl">20mmSquaredPost_FlipPlatform_SidedAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/TC%2020mm%20SquaredPost%20Accessories/20mmSquaredPost_FlipPlatform_FlatAdaptor.stl">20mmSquaredPost_FlipPlatform_FlatAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/TC%2020mm%20SquaredPost%20Accessories/20mmSquaredPost_FlipPlatform_TipAdaptor.stl">20mmSquaredPost_FlipPlatform_TipAdaptor.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/DLP3010_Base.stl">DLP3010_Base.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/DLPS3010_Base_Holder.stl">DLPS3010_Base_Holder.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/ConeHolder.stl">ConeHolder.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/Projector_PhotoDiod_Holder.stl">Projector_PhotoDiod_Holder.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Photodiod%20Accessories/PhotoDiod_LightGuideAdaptor.stl">PhotoDiod_LightGuideAdaptor.stl</a>
 
 
 <b>Screws</b>:
-- 1x M6 of 6 mm Capless
-- 2x M4 of 20mm
+- M6
+- M4
+- M3
 
 <b>For the Cone</b>:
 - 1x A4 sheet of paper (black or white, depending on requirements)
 - 1x Super glue (Preferably gel-like to not soak in the paper).
 - 1x Waterproof clear spray (The Deichmann's <a href="https://www.deichmann.com/en-gb/p/deichmann-shoe-care-care-spray-shoe-care-transparent-52373/275152">Shoe Care Spary</a> is actually miraculous)
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Yoni_BallHolder_100Deg.stl">ConeHolder</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/Cone_HandeldSupport.stl">Cone_HandeldSupport.stl</a>
 
 ## Ball Camera Building Instructions
 
@@ -107,5 +110,6 @@
     - 2x Micromanipulator <a href="https://www.amazon.de/s?k=hF3-A90">hF3-A90</a>, because it's cheap
 - 3D-Printed:
     - 1x <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Ball%20Walking%20Camera%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Camera_Micromanipulator_Adaptor_Sided.stl">Camera_Micromanipulator_Adaptor_Sided.stl</a>
+
 
 
