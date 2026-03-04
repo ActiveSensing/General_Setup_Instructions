@@ -1,0 +1,408 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Cone Pattern Templates - Metric</title>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=0.4">
+    <meta name="description" content="Print full scale adjustable cone pattern templates - Metric">
+    <link type="text/css" href="css/bl4.css" rel="stylesheet">
+    <script src="Scripts/Gen.js" async></script>
+    <script src="Scripts/ConePattern_V24.js" async></script>
+    <script async src="/Scripts/webfont.js"></script>
+</head>
+
+<body onload="Setup();">
+ 
+</div>
+        <br>
+        <span class="Hdr1" style="margin-right:20px;">Cone Pattern Templates - Print at 100% Printer Scale</span> 
+        <br><br>
+        <table style="width:100%;height:380px;">
+            <tbody><tr>
+                <td style="position:relative;width:320px;text-align:center;vertical-align:middle;">
+                    <div style="width:100%;position:absolute;top:0px;">
+                        Rotate <input type="range" id="rngRotate" min="0" max="360" value="0" step="1" onchange="RotateProfile(this)" style="width:120px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                        <label for="cbProfileDims" style="margin-left:12px;">Dims</label> <input type="checkbox" id="cbProfileDims" checked="checked" onclick="Calculate()">
+                    </div>
+                    <br>
+                    <canvas id="cnvsProfile" width="200" height="92" style="margin-top: 2px; transform: rotate(0deg);">Cone cutting pattern calculator profile diagram</canvas>
+                </td>
+                <td style="width:210px;vertical-align:top;">
+                     <table class="InTable">
+                        <tbody><tr>
+                            <td style="text-align:center;">
+                                Top Width
+                            </td>
+                            <td>
+                                <input type="text" id="_txtTopWidth" class="Num" style="width:50px;" value="30">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                Base Width
+                            </td>
+                            <td>
+                                <input type="text" id="_txtBaseWidth" class="Num" style="width:50px;" value="100">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                Height
+                            </td>
+                            <td>
+                                <input type="text" id="_txtHeight" class="Num" style="width:50px;" value="120">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                <div class="Tooltip help">?
+                                    <div class="Tooltiptext">Show Dimensions on template, rounded to selected precision</div>
+                                </div>
+                                <label for="cbDims">Dims</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="cbDims" onclick="Calculate()">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                Precision
+                            </td>
+                            <td>
+                                <select id="ddPrecision" onchange="Calculate()">
+                                    <option value="0">1mm</option>
+                                    <option value="1">0.1</option>
+                                    <option value="2">0.01</option>
+                                </select>
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                <div class="Tooltip help">?
+                                    <div class="Tooltiptext">Draw diagram at 100% scale to print and use as template.<br>Disabled if template over A0 size.<br>If not Full Scale, check Dimensions to label diagram</div>
+                                </div>
+                                <label for="cbFullScale">Full Scale</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="cbFullScale" checked="checked" onclick="Calculate()">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                <div class="Tooltip help">?
+                                    <div class="Tooltiptext">Add tab to overlap and join template edges. (Only with full Template - not segments)</div>
+                                </div>
+                                <label for="cbTab">Join Tab</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" checked="checked" id="cbTab" onclick="Calculate()">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                <div class="Tooltip help">?
+                                    <div class="Tooltiptext">Show Template bounding rectangle with dimensions</div>
+                                </div>
+                                <label for="cbBoundingRect">Bounding</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="cbBoundingRect" onclick="Calculate()">
+                            </td>
+                        </tr><tr>
+                            <td style="text-align:center;">
+                                <div class="Tooltip help">?
+                                    <div class="Tooltiptext">For large templates - divide into multiple IDENTICAL smaller segments for easier printing</div>
+                                </div>
+                                Segments 
+                            </td>
+                            <td>
+                                <select id="ddSegments" onchange="Calculate()">
+                                    <option value="1">Full</option>
+                                    <option value="2">1 of 2</option>
+                                    <option value="3">1 of 3</option>
+                                    <option value="4">1 of 4</option>
+                                    <option value="5">1 of 5</option>
+                                    <option value="6">1 of 6</option>
+                                    <option value="7">1 of 7</option>
+                                    <option value="8">1 of 8</option>
+                                    <option value="9">1 of 9</option>
+                                    <option value="10">1 of 10</option>
+                                </select>
+                            </td>
+                        </tr><tr>
+                            <td colspan="2" style="text-align:center;">
+                                <input type="button" value="Calculate" onclick="Calculate()" class="Btn">
+                                <input type="button" value="SVG" onclick="DownloadSVG()" class="BtnSmall" style="margin-left:24px;">
+                             </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+                <td style="width:230px;vertical-align:top;">
+                    <table id="tblHolesLines" class="InTable" style="width: 210px; display: inline-block;">
+                        <tbody><tr>
+                            <td style="width:210px;text-align:center;padding-bottom:12px;">
+                                Horizontal Markings
+                                <br>
+                                <div class="rblButtons" style="margin-bottom:2px;margin-top:4px;">
+                                    <div style="width:50px;">
+                                        <input type="radio" name="rblMarks" id="rbNone" value="none"onclick="Calculate()">
+                                        <label for="rbNone">None</label> 
+                                    </div>
+                                    <div style="width:50px;margin-left:12px;">
+                                        <input type="radio" name="rblMarks" id="rbHoles" value="holes" onclick="Calculate()">
+                                        <label for="rbHoles">Holes</label>
+                                    </div>
+                                    <div style="width:50px;margin-left:12px;">
+                                        <input type="radio" name="rblMarks" id="rbHorizLines" value="linesH" checked="checked" onclick="Calculate()">
+                                        <label for="rbHorizLines">Lines</label>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        </tbody><tbody id="tbodyHolesLines" style="display: table-row-group;">
+                            <tr>
+                                <td style="text-align:center;">
+                                    <div class="rblButtons">
+                                        <div style="width:100px;">
+                                            <input type="radio" name="rblRowSpacing" id="rbCustomSpread"  checked="checked"onclick="Calculate()">
+                                            <label for="rbCustomSpread">Custom Rows</label> 
+                                        </div>
+                                        <div style="width:80px;margin-left:12px;">
+                                            <input type="radio" name="rblRowSpacing" id="rbEvenSpread" onclick="Calculate()">
+                                            <label for="rbEvenSpread">Even Rows</label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr><tr id="trCustomRows" style="display: table-row;">
+                                <td style="text-align:center;">
+                                    <div class="Tooltip help">?
+                                        <div class="Tooltiptext">Enter the diameter of the line</div>
+                                    </div>
+                                    Line Diameter
+                                    <br>
+                                    <input type="text" id="txtRows" value="80" style="width:170px;">
+                                </td>
+                            </tr><tr id="trSelectRows" style="display: none;">
+                                <td style="text-align:center;">
+                                    Rows &nbsp;
+                                    <select id="ddRows" data-type="Num" data-from="1" data-to="20" data-val="6" onchange="Calculate()"><option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>
+                                </td>
+                            </tr>
+                            </tbody><tbody id="tbodyHoles" style="display:none;">
+                            <tr id="trHoles">
+                                <td style="text-align:center;">
+                                    Hole Type &nbsp;
+                                    <select id="ddHoleType" onchange="Calculate()">
+                                        <option value="center">◯ + Centre</option>
+                                        <option value="noCenter">◯ No Centre</option>
+                                        <option value="3sides">Triangle</option>
+                                        <option value="4sides">Square</option>
+                                        <option value="5sides">5 Sides</option>
+                                        <option value="6sides">6 Sides</option>
+                                        <option value="7sides">7 Sides</option>
+                                        <option value="8sides">8 Sides</option>
+                                    </select>
+                                    <br>
+                                    Hole Diameter &nbsp;
+                                    <input type="text" id="_txtHoleDiam" class="Num" value="6" style="width:50px;">
+                                </td>
+                            </tr><tr>
+                                <td style="text-align:center;">
+                                    Holes/Row &nbsp;
+                                    <select id="ddHoles" data-type="Num" data-from="2" data-to="20" data-val="6" onchange="Calculate()"><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>
+                                    <input type="range" id="rngIncs" min="2" max="20" step="1" value="6" onchange="rngIncs_Change(this)" style="width:70px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tbody><tr><td><hr></td></tr>
+                        <tr>
+                            <td style="text-align:center;">
+                                <label for="cbVertLines">Vertical Columns</label> <input type="checkbox" id="cbVertLines" onclick="Calculate()">
+                                <select id="ddCols" data-type="Num" data-from="2" data-to="20" data-val="6" onchange="Calculate()"><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option></select>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                </td>
+                <td rowspan="2" style="vertical-align:top;">
+                    <table id="tblText" class="InTable" style="display: inline-block;">
+                        <tbody><tr>
+                            <td style="text-align:center;">
+                                <label for="cbToggleTextIn" style="font-size:19px;">Text</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" id="cbToggleTextIn" onclick="ToggleTextInputs(this)">
+                                <input type="text" id="txtText" style="width:140px;" placeholder="Add Text Here" onkeyup="Calculate()">
+                            </td>
+                        </tr>
+                        </tbody><tbody id="trTextInputs" style="display:none;">
+                            <tr>
+                                <td colspan="2" style="text-align:center;">
+                                    <input type="button" value="More Text" onclick="Calculate(true)" class="BtnSmall">
+                                    <input type="button" id="btnRemoveText" value="Remove Text" onclick="RemoveText()" class="BtnSmall" style="visibility:hidden;margin-left:16px;">
+                                </td>
+                            </tr><tr>
+                                <td colspan="2">
+                                    <label for="cbNoBorder" style="margin-left:6px;">Remove Template Border</label>
+                                    <input type="checkbox" id="cbNoBorder" onclick="Calculate()">
+                                </td>
+                            </tr><tr>
+                                <td style="text-align:center;">
+                                    Fonts
+                                </td>
+                                <td>
+                                    <select id="ddFonts" onchange="Calculate()"><option>Default Font</option><option>Arial</option><option>Arial Black</option><option>Book Antiqua</option><option>Calibri</option><option>Calibri Light</option><option>Calisto MT</option><option>Cambria</option><option>Candara</option><option>Century Gothic</option><option>Comic Sans MS</option><option>Consolas</option><option>Constantia</option><option>Copperplate Gothic Light</option><option>Corbel</option><option>Courier New</option><option>Ebrima</option><option>Franklin Gothic Medium</option><option>Gabriola</option><option>Georgia</option><option>Impact</option><option>Javanese Text</option><option>Leelawadee</option><option>Leelawadee UI</option><option>Lucida Console</option><option>Lucida Sans Unicode</option><option>MS Gothic</option><option>MS PGothic</option><option>MV Boli</option><option>Malgun Gothic</option><option>Marlett</option><option>Microsoft Himalaya</option><option>Microsoft JhengHei</option><option>Microsoft Sans Serif</option><option>Microsoft Uighur</option><option>Microsoft YaHei</option><option>Microsoft Yi Baiti</option><option>Palatino Linotype</option><option>Papyrus</option><option>Segoe Print</option><option>Segoe Script</option><option>Sitka Banner</option><option>Sitka Display</option><option>Sitka Heading</option><option>Sitka Small</option><option>Sitka Subheading</option><option>Sitka Text</option><option>Sylfaen</option><option>Symbol</option><option>Tahoma</option><option>Trebuchet MS</option><option>Verdana</option><option>Webdings</option><option>Wingdings</option><option>Yu Gothic</option></select>
+                                </td>
+                            </tr><tr>
+                                <td colspan="2" style="text-align:center;">
+                                    <div class="Tooltip help">?
+                                        <div class="Tooltiptext">Add 50 Google Web Fonts.<br>After fonts have loaded, check 'Text' to add text to template, then click 'Fonts' dropdown to select and use keyboard cursor keys to cycle through and examine fonts.</div>
+                                    </div>
+                                    <input type="button" id="btnGoogleFonts" value="+ 50 Web Fonts" onclick="GetGoogleFonts()" class="BtnSmall" style="margin-bottom:6px;">
+                                    <br>
+                                    <div class="Tooltip help">?
+                                        <div class="Tooltiptext">Click <a target="_blank" rel="nofollow noopener" href="https://fonts.google.com/" style="color:dodgerblue;">Choose Font</a> 
+                                            to view available Google fonts, then hit 
+                                            <input type="button" value="+ 1 Google Font" onclick="AddGoogleFont()" class="BtnSmall" style="margin-left:6px;font-size:10px;"> 
+                                            and enter desired font name to load.
+                                        </div>
+                                    </div>
+                                    <input type="button" value="+ 1 Google Font" onclick="AddGoogleFont()" class="BtnSmall" style="margin-left:6px;font-size:12px;margin-bottom:6px;">
+                                    <a target="_blank" rel="nofollow noopener" href="https://fonts.google.com/" style="font-size:12px;">Choose Font</a>
+                                    <br>
+                                    <div class="Tooltip help">?
+                                        <div class="Tooltiptext"> 
+                                            Search for 'Download Fonts' to choose and download a font,
+                                            then browse to file and load font.<br>(filetypes .ttf, .otf or .woff)
+                                        </div>
+                                    </div>
+                                    <label class="fileContainer" style="margin-left:6px;">
+                                        <span class="BtnSmall" style="padding:3px;font-size:12px;">Font from File</span>
+                                        <input type="file" accept=".ttf,.otf,.woff" onchange="AddFontFromFile(this)" style="display:none;">
+                                    </label>
+                                </td>
+                            </tr><tr>
+                                <td colspan="2" style="text-align:center;">
+                                    <label for="cbBold">Bold</label>
+                                    <input type="checkbox" id="cbBold" onclick="Calculate()" checked="checked" style="margin-right:10px;">
+                                    <label for="cbTextOutline">Outline</label>
+                                    <input type="checkbox" id="cbTextOutline" onclick="Calculate()" style="margin-right:10px;" checked="checked">
+                                    <label for="cbInvertText">Invert</label>
+                                    <input type="checkbox" id="cbInvertText" onclick="Calculate()">
+                                    <br>
+                                    Colour
+                                    <input type="color" id="clrPick" value="#ffffff" oninput="CallAnim()" style="margin-right:20px;">
+                                    <label for="cbMirror">Mirror</label> 
+                                    <input type="checkbox" id="cbMirror" onclick="Calculate()">
+                                </td>
+                            </tr><tr>
+                                <td style="text-align:center;">
+                                    ↑ ↓
+                                </td>
+                                <td>
+                                    <input type="range" id="rngTextVert" onchange="Calculate()" min="0" max="1" step="0.01" value="0.5" style="width:160px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                                </td>
+                            </tr><tr>
+                                <td style="text-align:center;">
+                                    ← →
+                                </td>
+                                <td>
+                                    <input type="range" id="rngTextHoriz" onchange="Calculate()" min="0" max="1" step="0.01" value="0.5" style="width:160px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                                </td>
+                            </tr><tr>
+                                <td style="text-align:center;">
+                                    Size
+                                </td>
+                                <td>
+                                    <input type="range" id="rngFontSize" onchange="Calculate()" min="20" max="300" step="1" value="40" style="width:160px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr><tr>
+                <td colspan="3">
+                    Top <input type="range" id="rngTopWidth" min="0" max="149" step="1" value="30" onchange="rngTopWidth_Change(this)" style="width:110px;margin-right:20px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                    Base <input type="range" id="rngBaseWidth" min="40" max="1000" step="1" value="100" onchange="rngBaseWidth_Change(this)" style="width:110px;margin-right:20px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                    Height <input type="range" id="rngHeight" min="20" max="400" step="1" value="120" onchange="rngHeight_Change(this)" style="width:110px;margin-right:20px;" title="Drag close,then use Keyboard Cursor Keys to Fine Tune">
+                    <span id="spnPageSize">Letter or A4 Landscape</span>
+                </td>
+            </tr>
+        </tbody></table>
+    </div>
+    <canvas id="cnvsTemplate" width="1080" height="585" class="CnvsCenter">Cone pattern full scale cutting template</canvas>
+    <div id="divSVG" style="width:100%;display:none;text-align:center;">
+        <br><hr>
+        <h3 style="display:inline-block;margin-right:30px;">Right Click image and Choose <span style="background:#f1f1f1;padding:3px;border:solid silver 1px;border-radius:3px;">Save image as...</span> to download Full Scale SVG</h3>
+        <input type="button" value="Clear All" onclick="_ClearAllSVG()" class="Btn">
+        <span onclick="window.scrollTo(0,0)" class="JsAction" style="margin-left:32px;">To Top ↑</span>
+        <br><br>
+        <div id="divSVG_All"></div>
+        <br><hr><br>
+    </div>
+    <br>
+        <table style="width:100%;">
+            <tr>
+                <td style="width:500px;vertical-align:top;">
+                    <span id="spnRes1" style="line-height:200%;"></span>
+                </td>
+                <td style="vertical-align:top;">
+                    <span id="spnRes2" style="line-height:200%;"></span>
+                </td>
+            </tr>
+        </table>
+        <br><hr><br>
+        <input type="button" onclick="Show3D()" value="3D Cone Model" class="BtnDefault" style="font-size:18px;margin-right: 20px;">
+        Click and drag 3D Model to re-orient.
+        <label for="cb3DRotateX" style="margin-left:20px;">Rotate &harr;</label> 
+        <input type="checkbox" id="cb3DRotateX" checked="checked" onclick="Show3D()">
+        <label for="cb3DRotateY" style="margin-left:20px;">Rotate &varr;</label> 
+        <input type="checkbox" id="cb3DRotateY" checked="checked" onclick="Show3D()">
+        <iframe id="ifrm3D"  width="800" height="800" style="border:none;display:none;"></iframe>
+        <br><br><hr><br>
+        <div class="Row">
+            <div class="Col1">
+                <img src="/images/light.gif" style="width:16px;height:16px;vertical-align:middle;" alt="Large Cone Layout">
+                For very large cones (base or height over 600), or when  <strong>Full Scale</strong> is un-checked (diagram is not Full Scale), check <strong>Dimensions</strong> 
+                to show correct measurements to mark out cone.
+                <img src="/images/light.gif" style="width:16px;height:16px;vertical-align:middle;" alt="Volume Calibration">
+                See <a href="/volume-calibration">Volume Calibration Templates</a> to mark incremental fluid volumes on cone.
+                <span id="spnOverlap"></span>
+            </div>
+            <div class="Col2">   
+                Hit <span class="Strng">Diagrams to PDF</span> (below) to create a PDF file up to paper size A0 (1189mm x 841mm) for large templates.
+                Send to a Print Shop for plan printing, or to print a large template image over multiple pages, see <a href="/printing-tips">Printing Tips</a>
+            </div>
+        </div>   
+        
+        
+        
+        
+        <script>
+            // Main
+            function ShowCalculator(){var a=document.createElement("iframe");a.style="width:140px;height:186px;border:0px;";a.src="/calculator.html";$("divCalculatorLeft").appendChild(a);$("divCalculatorBtn").style.display="none"}
+            function _ClearMargins() { $("divMargins").style.display = "none"; }
+            function __rngCopyCanvasScale_Change(a){for(var b=$("divCopyCanvas").getElementsByTagName("canvas"),c=0;c<b.length;c++){var d=b[c],e=d.width,f=d.height;d.style.width=a.value*e+"px";d.style.height=e/f*d.style.width+"px"}}function SetImperialPresc(a){a=parseInt(a.value);_isConDec=100===a;conMet=101===a;2<a&&!_isConDec&&!conMet&&(_den=a)}top!==self&&(top.location.href=self.location.href);
+            function _ShowMenu(a){document.getElementById("divMenuTop")&&(document.getElementById("divMenuTop").style.display=1===a?"block":"none")}document.body.setAttribute("tabIndex","0");
+            function _SVG(a){var b=a.indexOf(">")+1;a=a.slice(0,b)+"<title>Created with blocklayer.com</title>"+a.slice(b);b=document.createElement("img");b.src="data:image/svg+xml;utf8,"+encodeURIComponent(a);b.className="SVG_Save";b.title="Right Click and choose 'Save image as...' to save Full Scale SVG";$("divSVG_All").appendChild(b);$("divSVG").style.display="block";$("divSVG").scrollIntoView()
+
+                                // Retrieve input values for naming
+                                var topWidth = document.getElementById('_txtTopWidth').value;
+                                var baseWidth = document.getElementById('_txtBaseWidth').value;
+                                var height = document.getElementById('_txtHeight').value;
+
+                                // Create dynamic file name
+                                var fileName = `Cone(${topWidth}, ${baseWidth}, ${height}).svg`;
+
+                                // Create temporary anchor for downloading the SVG automatically
+                                var link = document.createElement('a');
+                                link.href = b.src;  // The SVG image data URL
+                                link.download = fileName;    // Dynamic file name
+                                document.body.appendChild(link);
+
+                                // Trigger download by simulating a click
+                                link.click();
+
+                                // Cleanup: remove temporary link element
+                                document.body.removeChild(link);
+                                        }
+            function _ClearAllSVG(){$("divSVG_All").innerHTML="";$("divSVG").style.display="none";window.scrollTo(0,0)}
+            function _Contact(){window.location.href="/contact-us2?fromcalc="+document.title};
+        </script>
+    </div>
+</body>
+</html>

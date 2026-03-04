@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1059" height="554">
+  
+  
+  <defs/>
+  
+  
+  <g transform="translate(50,50)">
+    
+    
+    <path fill="none" stroke="red" paint-order="fill stroke markers" d="&#10;        M 322.6108254114851 -1.4210854715202004e-14 A 162.06560626089933 162.06560626089933 0 0 0 636.5024393253625 7.105427357601002e-15 L 959.1132647368477 83.07279028049183 A 495.2004635749701 495.2004635749701 0 0 1 0 83.0727902804918" stroke-miterlimit="10" stroke-dasharray="" stroke-width="1px"/>
+    
+    
+    <g transform="translate(322.6108254114851,-1.4210854715202004e-14) rotate(75.55995114487799,0,0)">
+      
+      
+      <path d="M 0.0 0 L -30.236220472440948 0.0 L -30.236220472440948 333.1348573140708 L 0.0 333.1348573140708 " fill="none" stroke="red" stroke-width="1px"/>
+      
+      
+      <line x1="0" y1="0" x2="0" y2="333.1348573140708" stroke="black" stroke-width="1px"/>
+      
+    
+    </g>
+    
+    
+    <path fill="none" stroke="black" paint-order="fill stroke markers" d=" M 130.78817246411563 49.39463205867079 A 360.14579169088734 360.14579169088734 0 0 0 828.325092272732 49.394632058670815" stroke-miterlimit="10" stroke-dasharray="" stroke-width="1px"/>
+    
+  
+  </g>
+  
+
+</svg>
