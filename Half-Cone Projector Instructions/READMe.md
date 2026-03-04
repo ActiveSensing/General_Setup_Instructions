@@ -90,5 +90,6 @@
 8. Slide the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b> onto the bottom tip of the 30cm-long <b>Squared Post</b> (Half-cone holder facing up) and thigthen the <b>T-Nut</b>.
 
 ### Building the Half-Cone
+1. Open our <a href="https://github.com/ActiveSensing/General_Setup_Instructions/tree/main/Half-Cone%20Projector%20Instructions/Cone_Cutout_Generator/cone-patterns.html">customised version</a> of the tools from www.blocklayer.com
 
 
