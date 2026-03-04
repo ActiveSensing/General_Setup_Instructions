@@ -29,7 +29,7 @@
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/TC%2020mm%20SquaredPost%20Accessories/20mmSquaredPost_FlipPlatform_TipAdaptor.stl">20mmSquaredPost_FlipPlatform_TipAdaptor.stl</a>
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/DLP3010_Base.stl">DLP3010_Base.stl</a>
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/DLPS3010_Base_Holder.stl">DLPS3010_Base_Holder.stl</a>
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/ConeHolder.stl">ConeHolder.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/80mm_HalfCone_Holder.stl">80mm_HalfCone_Holder.stl</a>
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Projector%20Accessories/Projector_PhotoDiod_Holder.stl">Projector_PhotoDiod_Holder.stl</a>
 - <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Photodiod%20Accessories/PhotoDiod_LightGuideAdaptor.stl">PhotoDiod_LightGuideAdaptor.stl</a>
 
@@ -47,7 +47,7 @@
 - 1x A4 sheet of paper (black or white, depending on requirements)
 - 1x Super glue (Preferably gel-like to not soak in the paper).
 - 1x Waterproof clear spray (The Deichmann's <a href="https://www.deichmann.com/en-gb/p/deichmann-shoe-care-care-spray-shoe-care-transparent-52373/275152">Shoe Care Spary</a> is actually miraculous)
-- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/Cone_HandeldSupport.stl">Cone_HandeldSupport.stl</a>
+- <a href="https://github.com/ActiveSensing/General_Setup_Instructions/blob/main/Half-Cone%20Projector%20Instructions/3D%20Printed%20and%20Manufactured%20Parts/Cone%20Supports/80mm_HalfCone_HandeldSupport.stl">80mm_HalfCone_HandeldSupport.stl</a>
 
 ## Mounting Instructions
 
@@ -76,7 +76,7 @@
 15. Mount the <b>Rail Carrier RC2</b> of your structure onto the <b>Dovetail Rail</b> in your experimental setup and secure it with by thightening it's thumb screw.
     - $\color{red}{\textrm{To help with the incoming projector-cone alignment, make sure the 30cm-long Squared Post faces the experimentator for now.}}$
 
-### Mounting the projector
+### Mounting the projector and the Half-Cone Holder
 1. Unscrew the <b>Projector</b> from its metallic platform and screw it back to the <b>DLP3010_Base.stl</b>.
     - $\color{red}{\textrm{To access one of the screw, you will have to first unscrew the top PCB.}}$
 2. Gently lie down the <b>DLP3010_Base.stl</b> into the <b>DLPS3010_Base_Holder.stl</b> with the projector facing down.
@@ -85,12 +85,10 @@
 4. Beneath the <b>DLPS3010_Base_Holder.stl</b>, slightly screw a <b>T-Nuts</b> with M6 screws and washers (beneath the screws) through both grooves
 5. Slide the <b>DLPS3010_Base_Holder.stl</b> (projector pointing downard) onto the top of the 30cm-long <b>Squared Post</b> already install in your experiemental setup, then thighten the <b>T-Nuts</b>.
     - $\color{red}{\textrm{The projector's optic should't be aligned yet.}}$
+6. Slightly screw a <b>T-Nut</b> to the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b>.
+7. Fit the <b>80mm_HalfCone_Holder.stl</b> inside the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b>'s channel (Half-cone holder facing the opposite side of the <b>T-Nut</b>) and secure it with M4 screws and nuts.
+8. Slide the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b> onto the bottom tip of the 30cm-long <b>Squared Post</b> (Half-cone holder facing up) and thigthen the <b>T-Nut</b>.
 
-### Mounting the Cone Holder
-1. Fit the <b>ConeHolder.stl</b> inside the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b>'s channel (Curved edge facing )
-2. Slightly screw a <b>T-Nuts</b> to the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b>.
-3. Slide the <b>20mmSquaredPost_FlipPlatform_TipAdaptor.stl</b> onto the bottom tip of the Gently lie down the <b>DLP3010_Base.stl</b> into the <b>DLPS3010_Base_Holder.stl</b> with the projector facing down.
-    - $\color{red}{\textrm{Make sure the Projector's lense points towards the two DLPS3010-Base-Holder's bottom grooves.}}$
-4. Fit an M4 nut into each corner of the <b>DLP3010_Base.stl</b> and thighen them with M4 screws passing through the <b>DLPS3010_Base_Holder.stl</b>'s vertical slits.
-5. Beneath the <b>DLPS3010_Base_Holder.stl</b>, slightly screw a <b>T-Nuts</b> with M6 screws and washers (beneath the screws) through both grooves
-6. Slide the <b>DLPS3010_Base_Holder.stl</b> onto the top of the 30cm-long <b>Squared Post</b> already install in your experiemental setup, then thighten the <b>T-Nuts</b>. The projector's optic should't be aligned yet.
+### Building the Half-Cone
+
+
