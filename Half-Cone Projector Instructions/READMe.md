@@ -93,16 +93,22 @@
 #### Generate the cutout SVG
 1. Download the <a href="https://github.com/ActiveSensing/General_Setup_Instructions/tree/main/Half-Cone%20Projector%20Instructions/Cone_Cutout_Generator/">Cone Cutout Generator Folder</a>
 2. From the <b>Cone Cutout Generator Folder</b> launch the <b>cone-patterns.html</b> (which is a customised version of a tool found on the website blocklayer.com).
-3. Set the <i>Top Width (1)</i>, <i>Base Width (2)</i> and <i>Height (3)</i> of your desired cone. For conviniency, make sure that the cutout will still printable on a A4 sheet (4).
-4. By default, this cutout generator will generate a line where the cone diameter reaches 80mm (5). This curve will serve as a landmark for glueing the <b>80mm_HalfCone_HandeldSupport.stl</b>.
+3. Set the <i>Top Width (1)</i>, <i>Base Width (2)</i> and <i>Height (3)</i> of your desired cone.
+4. For conviniency, make sure that the cutout will still printable on a A4 sheet (4).
+5. By default, this cutout generator will generate a line where the cone diameter reaches 80mm (5). This curve will serve as a landmark for glueing the <b>80mm_HalfCone_HandeldSupport.stl</b>.
    - $\color{red}{\textrm{If your want your cone to be held from a height where the diameter is different than 80mm, you can change the Line Diameter value.}}$
      $\color{red}{\textrm{However, you will have to redesign the ring of 80mmHalfConeHolder.stl and 80mmHalfConeHandeldSupport.stl.}}$
-5. Download the SVG of your cone's cutout (6). You can now close the <b>cone-patterns.html</b>'s web page.
+6. Download the SVG of your cone's cutout (6). You can now close the <b>cone-patterns.html</b>'s web page.
 <p align="center"><img src="ReadMe_Ref/ConeCutoutSteps.png" width="891" height="630"></p>
 
 #### Convert the cutout SVG to PDF
 1. Install <a href="https://inkscape.org/release/inkscape-1.4.2/windows/64-bit/exe/dl/">Inkscape</a>.
-2. From the downloaded <a href="https://github.com/ActiveSensing/General_Setup_Instructions/tree/main/Half-Cone%20Projector%20Instructions/Cone_Cutout_Generator/">Cone Cutout Generator Folder</a>, place your cutout svg into the <i>Generated Cutouts</i> folder and open the <b>FormatConeCutout.py</b>.
+2. From the downloaded <a href="https://github.com/ActiveSensing/General_Setup_Instructions/tree/main/Half-Cone%20Projector%20Instructions/Cone_Cutout_Generator/">Cone Cutout Generator Folder</a>, place your cutout .SVG into the <i>Generated Cutouts</i> folder.
+3. Inside the <i>Generated Cutouts</i> folder, open the <b>FormatConeCutout.py</b> and change the variable <i>svgFileName</i> into the name of your new cutout .SVG file. You can then run the script.
+   -    This script will optimise the SVG's file (important if you want to use a laser cutter) and save it as a <i>.PDF</i> file inside the same folder.
+#### Build the paper cone
+1. Print the cutout <i>.PDF</i> file onto a thick sheet of paper (could be a black paper if stimulus contrast matter more than max luminosity). 
+   - $\color{red}{\textrm{In the printing settings, make sure your check the option "ACTUAL SIZE"!!!}}$
 
 
 
