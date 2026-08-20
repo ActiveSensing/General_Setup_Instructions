@@ -5,6 +5,12 @@ import xml.etree.ElementTree as ET
 import xml.dom.minidom as minidom
 
 
+
+svgFileName = "Cone(36, 120, 80).svg"
+lineWidth = '1px' #set to '0.1px' for hairline thin
+InkscapePath = r"C:\Program Files\Inkscape\bin\inkscape.exe"
+
+
 script_dir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(script_dir)
 
@@ -136,6 +142,4 @@ def transform_svg(fileName, lineWidth, InkscapePath):
         "--export-filename=" + pdfName
     ])
 
-InkscapePath = r"C:\Program Files\Inkscape\bin\inkscape.exe"
-lineWidth = '1px' #set to '0.1px' for hairline thin
-transform_svg("Cone(36, 120, 80).svg", lineWidth, InkscapePath)
+transform_svg(svgFileName, lineWidth, InkscapePath)
