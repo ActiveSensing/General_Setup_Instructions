@@ -107,8 +107,9 @@
 3. Inside the <i>Generated Cutouts</i> folder, open the <b>FormatConeCutout.py</b> and change the variable <i>svgFileName</i> into the name of your new cutout .SVG file. You can then run the script.
    -    This script will optimise the SVG's file (important if you want to use a laser cutter) and save it as a <i>.PDF</i> file inside the same folder.
 #### Build the paper cone
-1. Print the cutout <i>.PDF</i> file onto a thick sheet of paper (could be a black paper if stimulus contrast matter more than max luminosity). 
+1. Option 1: Print the cutout <i>.PDF</i> file onto a thick sheet of paper (could be a black paper if stimulus contrast matter more than max luminosity). 
    - $\color{red}{\textrm{In the printing settings, make sure your check the option "ACTUAL SIZE"!!!}}$
+   Option 2: Use your SVG file to laser cut a perfect cone shape in the Baier laser cutter. You can cut the outer shape and engrave any guidelines you may need using lower laser power. Check in w. Joe before trying to engrave. This option can be higher throughput, if you need to test things, and more accurate, if a perfectly round shape is important in your setup.
 
 
 
